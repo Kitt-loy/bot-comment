@@ -1,4 +1,4 @@
-#ZoF
+
 import os
 try:
     import requests
@@ -6,7 +6,7 @@ except ImportError:
     os.system("pip install requests")
 import requests
 from time import sleep
-import re
+import re   
 ig_did = ''
 csrftoken = ''
 sessionid = ''
@@ -22,11 +22,12 @@ def welcome():
             (  ____ \(  ___  )(       )(       )(  ____ \( (    /|\__   __/  (  ___ \ (  ___  )\__   __/
             | (    \/| (   ) || () () || () () || (    \/|  \  ( |   ) (     | (   ) )| (   ) |   ) (   
             | |      | |   | || || || || || || || (__    |   \ | |   | |     | (__/ / | |   | |   | |   
-            | |      | |   | || |(_)| || |(_)| ||  __)   | (\ \) |   | |           |  | |   | |   | |
+            | |      | |   | || |(_)| || |(_)| ||  __)   | (\ \) |   | |          |  | |   | |   | |
             | |      | |   | || |   | || |   | || (      | | \   |   | |     | (  \ \ | |   | |   | |   
             | (____/\| (___) || )   ( || )   ( || (____/\| )  \  |   | |     | )___) )| (___) |   | |   
             (_______/(_______)|/     \||/     \|(_______/|/    )_)   )_(     |/ \___/ (_______)   )_(   
                                                                                             
+    """)
 welcome()
 def close_bot():
     input("Enter To Close..")
